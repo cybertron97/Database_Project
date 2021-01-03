@@ -1,0 +1,10 @@
+From Yuanjie Zhu
+Since Pyspark sets default python version 2.7, so you need to do 'export PYSPARK_PYTHON=python3' before test.
+
+Test code are inside 'test code folder', you can use either shell command or copy any command inside but make sure delete all the files under 'txt' and 'output' folder.
+For output, you can check ./output-final_color.txt to see state ultimate color and its ranking.
+
+A sample output for all the states with different type of vehicles under 'final_color' folder.
+
+From Tanish Arora
+For output figures, these code can be found under mapping folder
